@@ -15,7 +15,7 @@ A l'aide de Terraform, vous allez déployer un cluster Kubernetes avec les carac
   * Nombre de noeuds : `2`
   * Supprimer le Pool par default
   * Ce pool sera dans le sous réseaux créé dans le VPC
-  * Type d'instance Google : `"n1-standard-1"`
+  * Type d'instance Google : `"e2-standard-2"`
 
 ### Accès au cluster Kubernetes créé
 Sur votre machine locale ou à partir d'une machine d'administration, installez l'utilitaire `kubectl` et configurer les identifiants pour se rassurer qu'on a bien accès aux ressources Kubernetes
